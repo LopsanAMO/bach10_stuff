@@ -1,0 +1,56 @@
+=border-radius($radius)
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    -ms-border-radius: $radius
+    border-radius: $radius
+
+nav
+    height: 380px
+    padding: 0
+    position: static
+    border: 0
+    background-image: url('https://s.gr-assets.com/assets/home/masthead_background.jpg')
+    background-size: 75%
+    background-position: center
+    background-repeat: repeat-x
+    background-color: #f4f2e9
+    div.container
+        display: flex
+        div.imga
+            padding-left: 25%
+            width: 15%
+            img
+                padding-top: 5%
+                width: 68%
+        div.inputs
+            display: flex
+            padding-top: 0.5%
+            height: 20px
+            padding-left: 7%
+            margin: 0% 10%
+            input
+                font-size: 13px
+                margin: 5px
+                height: 25px
+                width: 125px
+            button
+                margin: 4px
+                font-size: 13px
+                height: 30px
+                width: 60px
+                background: black
+                color: white
+                +border-radius(5px)
+    div.checky
+        padding-left: 57.2%
+        display: flex
+        input
+            text-decoration: none
+            color: grey
+        a
+            padding-left: 40px
+            text-decoration: none
+            color: grey
+    div.img-central
+        padding-top: 2.5%
+        padding-left: 30%

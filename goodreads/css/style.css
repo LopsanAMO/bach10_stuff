@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+nav {
+  height: 380px;
+  padding: 0;
+  position: static;
+  border: 0;
+  background-image: url("https://s.gr-assets.com/assets/home/masthead_background.jpg");
+  background-size: 75%;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-color: #f4f2e9; }
+  nav div.container {
+    display: flex; }
+    nav div.container div.imga {
+      padding-left: 25%;
+      width: 15%; }
+      nav div.container div.imga img {
+        padding-top: 5%;
+        width: 68%; }
+    nav div.container div.inputs {
+      display: flex;
+      padding-top: 0.5%;
+      height: 20px;
+      padding-left: 7%;
+      margin: 0% 10%; }
+      nav div.container div.inputs input {
+        font-size: 13px;
+        margin: 5px;
+        height: 25px;
+        width: 125px; }
+      nav div.container div.inputs button {
+        margin: 4px;
+        font-size: 13px;
+        height: 30px;
+        width: 60px;
+        background: black;
+        color: white;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px; }
+  nav div.checky {
+    padding-left: 57.2%;
+    display: flex; }
+    nav div.checky input {
+      text-decoration: none;
+      color: grey; }
+    nav div.checky a {
+      padding-left: 40px;
+      text-decoration: none;
+      color: grey; }
+  nav div.img-central {
+    padding-top: 2.5%;
+    padding-left: 30%; }
+
+/*# sourceMappingURL=style.css.map */
