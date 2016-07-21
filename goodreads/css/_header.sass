@@ -4,53 +4,117 @@
     -ms-border-radius: $radius
     border-radius: $radius
 
-nav
-    height: 380px
-    padding: 0
-    position: static
+body, input
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif
+
+.container
+    padding: 0 10%
+    background: url('https://s.gr-assets.com/assets/home/masthead_background.jpg')
+    height: 370px
     border: 0
-    background-image: url('https://s.gr-assets.com/assets/home/masthead_background.jpg')
-    background-size: 75%
-    background-position: center
-    background-repeat: repeat-x
-    background-color: #f4f2e9
-    div.container
+
+nav
+    padding-top: 1.6%
+    display: flex
+
+.login
+    display: flex
+    padding-left: 44%
+    input.inpuh
+        font-size: 13px
+        margin: 0.5%
+        height: 25px
+        width: 125px
+    button
+        font-size: 13px
+        margin: 0.5%
+        height: 30px
+        width: 70px
+        background: #382110
+        color: white
+        +border-radius(6px)
+    .check
         display: flex
-        div.imga
-            padding-left: 25%
-            width: 15%
-            img
-                padding-top: 5%
-                width: 68%
-        div.inputs
-            display: flex
-            padding-top: 0.5%
-            height: 20px
-            padding-left: 7%
-            margin: 0% 10%
-            input
-                font-size: 13px
-                margin: 5px
-                height: 25px
-                width: 125px
-            button
-                margin: 4px
-                font-size: 13px
-                height: 30px
-                width: 60px
-                background: black
-                color: white
-                +border-radius(5px)
-    div.checky
-        padding-left: 57.2%
-        display: flex
-        input
-            text-decoration: none
-            color: grey
+        bottom: 93%
+        right: 32.9%
+        position: fixed
+        color: grey
         a
-            padding-left: 40px
-            text-decoration: none
+            font-size: 13px
             color: grey
-    div.img-central
-        padding-top: 2.5%
-        padding-left: 30%
+            padding-left: 35px
+            text-decoration: none
+        label
+            font-size: 13px
+
+.container-2
+    padding: 0 18%
+
+.imagen
+    display: flex
+    img
+        padding: 6% 9%
+.new
+    padding-left: 4.5%
+    padding-top: 4%
+    input
+        display: block
+        margin-bottom: 5px
+        margin-top: 10px
+        height: 31px
+        font-size: 16px
+        width: 285px
+        font-weight: bold
+h2
+    font-size: 18px
+    font-weight: normal
+
+input
+    border: #DCD6CC 1px solid
+    +border-radius(3px)
+    &:focus
+        box-shadow: 0 0 4px rgba(185, 173, 153, 0.5)
+        border-color: #B9AD99
+        outline: 0px
+
+input:placeholder
+    color: black
+
+input[type=checkbox]
+    transform: scale(1)
+
+.redes
+    border: 0
+    display: flex
+    button
+        background-color: #fdd05f
+        font-size: 18px
+        width: 220px
+        height: 40px
+        +border-radius(4px)
+    p
+        color: #706b5f
+        font-size: 10px
+        margin-left: 5%
+        margin-right: 9%
+        justify-content: center
+        a
+            color: #382110
+            text-decoration: none
+.redes-2
+    background: #333333
+    height: 50px
+    width: 290px
+    text-align: center
+    display: flex
+    align-items: center
+    ul
+        display: flex
+        li
+            text-decoration: none
+            list-style: none
+            padding-left: 10px
+span.redesitas
+    color: white
+    font-size: 14px
+    padding-left: 14%
